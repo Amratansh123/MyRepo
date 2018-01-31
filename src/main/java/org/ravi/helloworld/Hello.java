@@ -1,9 +1,9 @@
 package org.ravi.helloworld;
 
 public class Hello {
-	
-	public String displayHelloMessage(String message){
-		message = "hi";
+	String message = "hi";
+	public String displayHelloMessage(){
+		
 		return message;
 	}
 
