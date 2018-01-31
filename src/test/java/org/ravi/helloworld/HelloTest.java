@@ -23,7 +23,7 @@ public class HelloTest {
 		driver = new FirefoxDriver();*/
 		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("http://localhost:8080/Helloworld.war/");
+		driver.get("http://localhost:8086/Helloworld/");
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
 
