@@ -2,10 +2,9 @@ package org.ravi.helloworld;
 
 public class Hello {
 	
-	String test = "hi";
-	public String displayHelloMessage(){
-		
-		return test;
+	public String displayHelloMessage(String message){
+		this.message = "hi";
+		return this.message;
 	}
 
 }
